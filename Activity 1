@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+         <fieldset>
+            <legend><h2> Ragistration Form </h2></legend>
+
+            <label>First Name</label>:
+            <input type="text"><br>
+<br>
+            <label>Last Name</label>:
+            <input type="text"><br>
+<br>
+            <label>Email</label>:
+            <input type="email"><br>
+<br>
+            <label>Password</label>:
+            <input type="password"><br>
+<br>
+            <label>Gender</label>:
+<br>            
+            <input type="radio" name="Gender">Female<br>
+            <input type="radio" name="Gender">Male<br>
+
+<br>
+            <label>Preferences</label>:<br>
+<br>
+            Acrylic Painting:<input type="checkbox"><br>
+            Oil Painting:<input type="checkbox"><br>
+            Water Color Painting:<input type="checkbox"><br>
+<br>
+            Bio<textarea></textarea><br>
+            
+            <input type="submit"><input type="reset">
+         </fieldset>
+
+    </form>
+</body>
+</html>
